@@ -126,7 +126,7 @@ for i = 2:imax
         clf
         
         %Water Thickness Plot
-            subplot('position',[.1 .53 .8 .4])
+            subplot('position',[.1 .55 .8 .4])
             plot(x,smoothH*100, 'k')
             yy = [bottomline, fliplr(smoothH*100)];
             fill(xx,yy,[.373 .557 .627]);
